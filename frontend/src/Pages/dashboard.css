@@ -1,0 +1,65 @@
+.dashboard-bg {
+  background-color: white;
+  width: 100%;
+}
+
+.switch-custom {
+  background-color: #1f4d91;
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.selected-switch {
+  color: #1f4d91;
+  background-color: white !important;
+}
+
+.not-selected-switch {
+  color: white !important;
+  background-color: #1f4d91;
+}
+
+.selected-plan {
+  background-color: #1f4d91;
+  color: white;
+}
+
+.not-selected-plan {
+  background-color: #7993bd !important;
+  color: white !important;
+}
+
+.not-selected-plan:hover {
+  cursor: pointer;
+}
+.selected-text {
+  color: #1f4d91 !important;
+  font-weight: bolder !important;
+}
+td {
+  text-align: center !important;
+  width: 200px !important;
+  border: 2px !important;
+}
+.no-line {
+  border: 0px !important;
+}
+.square {
+  width: 100px; /* Adjust the width to your desired size */
+  height: 100px; /* Equal to the width to create a square */
+  background-color: #1f4d91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.plan-column {
+  width: 400px !important;
+}
+
+.big-cell {
+  width: 300px !important;
+}

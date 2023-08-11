@@ -1,0 +1,28 @@
+{
+  "name": "richpanel-stripe-assessment",
+  "version": "1.0.0",
+  "description": "stripe assessment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "path": "^0.12.7",
+    "stripe": "^12.18.0",
+    "yarn": "^1.22.19"
+  }
+}
